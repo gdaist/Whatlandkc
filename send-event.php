@@ -8,7 +8,7 @@ $url = "https://graph.facebook.com/v18.0/$pixel_id/events?access_token=$access_t
 $data = [
     "data" => [
         [
-            "event_name" => "Purchase",
+            "event_name" => "Lead",
             "event_time" => time(),
             "action_source" => "website",
             "user_data" => [
